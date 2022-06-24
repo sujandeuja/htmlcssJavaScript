@@ -1,55 +1,70 @@
-body { 
-background-color: darkgoldenrod;
-font-family: Georgia, "Times New Roman", Times, serif;
-font-size: small;
-margin: 0px;
+/* color name*/
+body{
+	font-family: sans-serif;
+	margin: 0px;
 }
-#header {
-background-color: darkcyan;
-margin: 10px;
-height: 108px;
+h1{
+	
+	background-image: url(coffee.jpg);
+	background-repeat: no-repeat;
+	
+	text-align: center;
 
 }
-#main {
-background: #efe5d0 url(images/background.gif) top left;
-font-size: 105%;
-padding: 15px;
-margin: 0px 10px 10px 10px;
+#header{
+	background-color: purple;
+	padding: 15px;
+	margin :0px 10px 10px 10px;
+	font-size: 105%;
+	color: white;
 }
-#sidebar {
-background: #efe5d0 url(images/background.gif) bottom right;
-font-size: 105%;
-padding: 15px;
-margin: 0px 10px 10px 10px;
+#footer{
+	background-color: purple;
+	color: whitesmoke;
+	text-align: center;
+	padding: 15px;
+	margin: 10px;
+	font-size: 90%;
 }
-#footer {
-background-color: darkcyan;
-color: #efe5d0;
-text-align: center;
-padding: 15px;
-margin: 10px;
-font-size: 90%;
+*{
+	box-sizing: border-box;
 }
-h1 {
-font-size: 120%;
-color:red;
+.column{
+	float: left;
+	width: 50%;
+	padding: 5px;
 }
-.slogan { color: red;}
-.beanheading { 
-text-align: center; 
-line-height: 1.8em}
-a:link {
-color: red;
-text-decoration: none;
-border-bottom: thin dotted red;
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+
 }
-a:visited {
-color: #red;
-text-decoration: none;
-border-bottom: thin dotted #675c47;}
-.one{
-    font-family: sans-serif;
-    font-size: 200%;
-    align-items: center;
-    padding:30px;
+
+
+P.four{
+	font-size: 1.8em;
+	color: darkblue;
+
 }
+ ul{
+ 	color: green;
+ 	font-size: 1.8em;
+ 	text-transform: capitalize;
+ }
+
+
+ a:link{
+ 	color: darkblue;
+ 	text-decoration: none;}
+ a:visited{
+ 	color: yellowgreen;
+ 	text-decoration: underline;
+ }
+ a:hover{
+ 	color: darkred;
+ 	text-decoration: underline;
+ }
+ a:active { 
+ 	color: darkcyan;
+ }
