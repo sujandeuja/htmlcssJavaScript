@@ -1,0 +1,70 @@
+/* color name*/
+body{
+	font-family: sans-serif;
+	margin: 0px;
+}
+h1{
+	
+	background-image: url(coffee.jpg);
+	background-repeat: no-repeat;
+	
+	text-align: center;
+
+}
+#header{
+	background-color: purple;
+	padding: 15px;
+	margin :0px 10px 10px 10px;
+	font-size: 105%;
+	color: white;
+}
+#footer{
+	background-color: purple;
+	color: whitesmoke;
+	text-align: center;
+	padding: 15px;
+	margin: 10px;
+	font-size: 90%;
+}
+*{
+	box-sizing: border-box;
+}
+.column{
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+
+P.four{
+	font-size: 1.8em;
+	color: darkblue;
+
+}
+ ul{
+ 	color: green;
+ 	font-size: 1.8em;
+ 	text-transform: capitalize;
+ }
+
+
+ a:link{
+ 	color: darkblue;
+ 	text-decoration: none;}
+ a:visited{
+ 	color: yellowgreen;
+ 	text-decoration: underline;
+ }
+ a:hover{
+ 	color: darkred;
+ 	text-decoration: underline;
+ }
+ a:active { 
+ 	color: darkcyan;
+ }
