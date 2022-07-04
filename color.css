@@ -1,38 +1,111 @@
 body{
 	background-color: indigo;
 	display: flex;
-	justify-content: safe center;
-	align-items: center;
+	
 	font-size: 17px;
+	margin: 0;
+	padding: 0;
 
 }
 main{
 	background-color: red;
-	width: 1200px;
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 100px 200px 200px 100px;
-	grid-gap: 50px;
+	grid-template-rows: 30px 100px 100px 100px;
+	
 
 }
 nav{
-	background-color: hotpink;
+	background-color: darkblue;
 	grid-column: 1/span 4;
 	display: flex;
-	justify-content: center;
+	justify-content:left;
 	align-items: center;
+
+
+}
+a{
+	color: white;
+	text-transform: uppercase;
+	font-family: serif;
+	;
 
 }
 .one{
 	padding: 20px;
 	font-size: 1.2em;
-	text-decoration:none}
-aside{
-	background-color: darkgreen;
-	grid-row: 2/span 2;
+	text-decoration: none;}
+.one-1{
+	text-indent: 200px;
 }
+
+
+
+
+
+
+
+
+aside{
+	background-color:white;
+	grid-column: 1/-1;
+}
+.flexwrapper{
+	text-transform: capitalize;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.flexitems{
+	color: ;
+	display: flex;
+	flex: 1;
+
+
+}
+.itemsix{
+
+	padding: 50px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .box1{
-	background-color: darkgrey;
+	background-color: darkcyan;
+	grid-column: 1/-1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.two{
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+
+}
+.two-1{
+	text-indent: 100px;
 }
 .box2{
 	background-color: cyan;
