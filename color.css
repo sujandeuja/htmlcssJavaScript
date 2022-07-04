@@ -1,79 +1,51 @@
-/* color name*/
 body{
-	font-family: sans-serif;
-	margin: 0px;
-}
-h1{
-	
-	background-image: url(coffee.jpg);
-	background-image: no-repeat;
-	
-	text-align: center;
+	background-color: indigo;
+	display: flex;
+	justify-content: safe center;
+	align-items: center;
+	font-size: 17px;
 
 }
-#header{
-	background-color: purple;
-	padding: 15px;
-	margin :0px 10px 10px 10px;
-	font-size: 105%;
-	color: white;
-}
-#footer{
-	background-color: purple;
-	color: whitesmoke;
-	text-align: center;
-	padding: 15px;
-	margin: 10px;
-	font-size: 90%;
-}
-*{
-	box-sizing: border-box;
-}
-.column{
-	float: left;
-	width: 50%;
-	padding: 5px;
-}
-.row::after{
-	content: "";
-	display: table;
-	clear: both;
+main{
+	background-color: red;
+	width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 100px 200px 200px 100px;
+	grid-gap: 50px;
 
 }
-
-
-P.four{
-	font-size: 1.8em;
-	color: darkblue;
+nav{
+	background-color: hotpink;
+	grid-column: 1/span 4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 }
- ul{
- 	color: green;
- 	font-size: 1.8em;
- 	text-transform: capitalize;
- }
+.one{
+	padding: 20px;
+	font-size: 1.2em;
+	text-decoration:none}
+aside{
+	background-color: darkgreen;
+	grid-row: 2/span 2;
+}
+.box1{
+	background-color: darkgrey;
+}
+.box2{
+	background-color: cyan;
+}
+.box3{
+	background-color: black;
+}
+.main-content{
+	background-color: indianred;
+	grid-column: 2/span 3;
 
-
- a:link{
- 	color: darkblue;
- 	text-decoration: none;}
- a:visited{
- 	color: yellowgreen;
- 	text-decoration: underline;
- }
- a:hover{
- 	color: darkred;
- 	text-decoration: underline;
- }
- a:active { 
- 	color: darkcyan;
- }
- #sujan{
- 	font-size: 1.8em;
- 	font-family: cursive;
- 	
- }
- .six{
- 	text-align: center;
- 	color: green;
- }
+}
+footer{
+	background-color: yellowgreen;
+	grid-column: 1/-1;
+}
